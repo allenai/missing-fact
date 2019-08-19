@@ -1,0 +1,18 @@
+*.class
+*.log
+*.DS_Store
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ specific
+.iml
+
+#Python specific
+*.pyc
+
+#Repo
+/data
+/trained_models
+
