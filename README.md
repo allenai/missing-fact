@@ -33,21 +33,21 @@ Table of Contents
 
 1. Create the `missingfact` environment using Anaconda
 
-  ```
-  conda create -n missingfact python=3.6
-  ```
+   ```
+   conda create -n missingfact python=3.6
+   ```
 
 2. Activate the environment
 
-  ```
-  source activate missingfact
-  ```
+   ```
+   source activate missingfact
+   ```
 
 3. Install the requirements in the environment:
 
-  ```
-  pip install -r requirements.txt
-  ```
+   ```
+   pip install -r requirements.txt
+   ```
   
 * ## Downloading Data
 
