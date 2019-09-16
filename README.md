@@ -29,7 +29,7 @@ Table of Contents
 * [Evaluating Models](#evaluating-models)
 
 
-* ## Setup Environment
+## Setup Environment
 
 1. Create the `missingfact` environment using Anaconda
 
@@ -49,7 +49,7 @@ Table of Contents
    pip install -r requirements.txt
    ```
   
-* ## Downloading Data
+## Downloading Data
 
     * ### Dataset
         The Knowledge Gap Dataset (KGD) can be downloaded from INSERT LINK HERE. To help with
@@ -92,7 +92,7 @@ Table of Contents
         ```
         The models will be downloaded to `data/trained_models/`.
  
-* ## Training Models
+## Training Models
     If you want to re-train the GapQA models instead, we provide a helper script to train N models
      for a given AllenNLP training config.
     ```
@@ -174,7 +174,7 @@ Table of Contents
         ./scripts/train_n_models.sh
         ```
 
-* ## Evaluating Models
+## Evaluating Models
     Similarly, we provide a helper script to evaluate the N trained models against the corresponding
     evaluation files. Note that depending on the particular ablation experiment, the evaluations
     will be run against a different file. E.g. the ablation experiment that does not use spans for
