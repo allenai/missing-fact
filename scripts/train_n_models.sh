@@ -5,7 +5,7 @@ set -e
 t=${NUM-5}
 outdir=${OUTDIR-/output}
 config=${CONF-/config.json}
-cuda_device=${CUDA-0}
+cuda_device=-1
 file_list=""
 for n in `seq 1 $t`; do
     run_dir=${outdir}/run${n}

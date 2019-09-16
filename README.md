@@ -23,7 +23,6 @@ Table of Contents
 * [Downloading Data](#downloading-data)
     * [Dataset](#dataset)
     * [Knowledge Sources](#knowledge-sources)
-    * [Glove](#glove)
     * [Trained models](#trained-models)
 * [Training Models](#training-models)
 * [Evaluating Models](#evaluating-models)
@@ -76,13 +75,6 @@ Table of Contents
         JSONL files containing prefetched sentences in the training datasets above. If you would
         like to change the retrieval, the ARC corpus can be downloaded
         [here](http://data.allenai.org/arc/arc-corpus/)
-
-    * ### Glove
-        Our models expect the `glove.840B.300d.txt.gz` file in `data/glove` directory. You can
-        download it using:
-        ```
-        ./scripts/downloads/download_glove.sh
-        ```
 
     * ### Trained models
         We provide all the trained GapQA models that were reported in our experiments. You can

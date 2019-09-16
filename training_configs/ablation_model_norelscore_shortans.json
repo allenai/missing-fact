@@ -59,7 +59,7 @@
     "text_field_embedder": {
       "tokens": {
         "embedding_dim": 300,
-        "pretrained_file": "data/glove/glove.840B.300d.txt.gz",
+        "pretrained_file": "https://allennlp.s3.amazonaws.com/datasets/glove/glove.840B.300d.txt.gz",
         "trainable": false,
         "type": "embedding"
       }
