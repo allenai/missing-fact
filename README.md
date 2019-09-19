@@ -23,7 +23,6 @@ Table of Contents
 * [Downloading Data](#downloading-data)
     * [Dataset](#dataset)
     * [Knowledge Sources](#knowledge-sources)
-    * [Glove](#glove)
     * [Trained models](#trained-models)
 * [Training Models](#training-models)
 * [Evaluating Models](#evaluating-models)
@@ -77,13 +76,6 @@ Table of Contents
     like to change the retrieval, the ARC corpus can be downloaded
     [here](http://data.allenai.org/arc/arc-corpus/)
 
-  * ### Glove
-    Our models expect the `glove.840B.300d.txt.gz` file in `data/glove` directory. You can
-    download it using:
-    ```
-    ./scripts/downloads/download_glove.sh
-    ```
-
   * ### Trained models
     We provide all the trained GapQA models that were reported in our experiments. You can
     download them using:
@@ -134,7 +126,6 @@ Table of Contents
     ```
 
   * ### Ablations: No Annotations
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_noann \
@@ -202,7 +193,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Full Model (f  + WordNet)
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_wordnet \
@@ -211,7 +201,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Annotations
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_noann \
@@ -220,7 +209,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: Heur. Span Anns
-  
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_heurspans \
@@ -237,7 +225,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Spans (Model)
-  
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_nospanmod \
@@ -246,7 +233,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Spans (IR)
-  
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_nospanir \
