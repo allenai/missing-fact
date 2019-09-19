@@ -47,7 +47,12 @@ Table of Contents
    ```
    pip install -r requirements.txt
    ```
-  
+4. Download NLTK stopwords
+
+   ```
+   python -m nltk.downloader stopwords
+   ```
+
 ## Downloading Data
 
 ### Dataset
