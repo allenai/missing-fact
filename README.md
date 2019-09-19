@@ -126,7 +126,6 @@ Table of Contents
     ```
 
   * ### Ablations: No Annotations
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_noann \
@@ -135,7 +134,6 @@ Table of Contents
     ```
 
   * ### Ablations: Heur. Span Anns
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_heurspans \
@@ -195,7 +193,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Full Model (f  + WordNet)
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_wordnet \
@@ -204,7 +201,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Annotations
-
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_noann \
@@ -229,7 +225,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Spans (Model)
-  
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_nospanmod \
@@ -238,7 +233,6 @@ models (using the `download_models.sh` script). To use your trained models, just
     ```
 
   * ### Ablations: No Spans (IR)
-  
     ```
     NUM=5 \
     OUTDIR=trained_models/ablation_model_nospanir \
